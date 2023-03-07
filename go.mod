@@ -1,4 +1,4 @@
-module user_module
+module github.com/tsxylhs/user_module
 
 go 1.17
 

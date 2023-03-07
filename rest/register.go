@@ -1,7 +1,7 @@
 package rest
 
 import (
-	"user_module/rest/handler"
+	"github.com/tsxylhs/user_module/rest/handler"
 
 	"github.com/gin-gonic/gin"
 )

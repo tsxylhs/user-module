@@ -2,8 +2,9 @@ package service
 
 import (
 	"context"
-	"user_module/module"
-	"user_module/module/model"
+
+	"github.com/tsxylhs/user_module/module"
+	"github.com/tsxylhs/user_module/module/model"
 
 	code "github.com/tsxylhs/go-starter/domain"
 	"github.com/tsxylhs/go-starter/starter"
