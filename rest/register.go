@@ -1,9 +1,8 @@
 package rest
 
 import (
-	"github.com/tsxylhs/user_module/rest/handler"
-
 	"github.com/gin-gonic/gin"
+	"github.com/tsxylhs/user_module/rest/handler"
 )
 
 func RegisterAPIs(router gin.IRouter) {

@@ -22,7 +22,7 @@ func NewUserApi() *UserApi {
 	}
 }
 
-func (api *UserApi) Inster(c *gin.Context) {
+func (api *UserApi) Insert(c *gin.Context) {
 	var form = model.User{}
 	err := api.Bind(c, &form)
 	if err != nil {
@@ -36,5 +36,5 @@ func (api *UserApi) Inster(c *gin.Context) {
 }
 func (api *UserApi) Register(router gin.IRouter) {
 	v1 := router.Group("/v1")
-	v1.POST("/inster", api.Inster)
+	v1.POST("/insert", api.Insert)
 }
