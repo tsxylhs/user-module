@@ -1,7 +1,7 @@
 package module
 
 import (
-	app "github.com/tsxylhs/user_module"
+	app "github.com/tsxylhs/user-module"
 
 	starter "github.com/tsxylhs/go-starter/starter"
 )

@@ -3,8 +3,8 @@ package handler
 import (
 	"context"
 
-	"github.com/tsxylhs/user_module/module/model"
-	"github.com/tsxylhs/user_module/service"
+	"github.com/tsxylhs/user-module/module/model"
+	"github.com/tsxylhs/user-module/service"
 
 	"github.com/gin-gonic/gin"
 	"github.com/tsxylhs/go-starter/log"
